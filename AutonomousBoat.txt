@@ -1,0 +1,171 @@
+//Motors initialized
+//#pragma config(Sensor, S4,     NXTSERVO,            sensorI2CCustom)
+                                                                            //#pragma config(Sensor, S2,     NXTSERVO,            sensorI2CCustom)
+
+//Sensor initialized
+
+
+#include "rdpartyroboticdr-3.1/drivers/mindsensors-servo.h"   //location of servoV8
+#include "rdpartyroboticdr-3.1/drivers/dexterind-gps.h"       //location of dgps drivers
+#include "rdpartyroboticdr-3.1/drivers/dexterind-compass.h"   //location of dcompass drivers
+
+task main()
+{
+
+
+//------------------------Declaration of variables--------------
+float LAT1;
+float LONG1;
+float LONG2;
+float LAT2;
+float distSPHERE;
+float Distance;
+int=n;
+float new_angle;
+float angle_diff;
+int x;              //which ones
+int y;              //the 
+int z;              //compass heading one
+float heading;
+float gpshead;
+float dy;
+float dx;
+//---------------------------------------------------------------
+
+
+
+//---------------------Lat and Long------------------------------
+n= ;  //How many Coordinates do you want THESE ARE ROWS IN THE COORD MATRIX
+LAT1=[;;;;;;;;];  //given lat     one column,many rows
+LONG1=[;;;;;;;;];  //given long   one column,many rows
+//---------------------------------------------------------------
+
+//---------------------------------------------------------------
+
+if(!DIMCinit(DIMC))    //initialize the compass
+	nxtDisplayCenteredTextLine('dGPS go');
+end
+//----------------------------------------------------------------
+
+
+//--------------------------dGPS Reading-------------------------
+LAT2=DGPSreadLatitude(DGPS);
+LONG2=DGPSreadLongitude(DGPS);
+distSPHERE = acos[sin(LAT1)*sin(LAT2)+cos(LAT1)*cos(LAT2)*cos(LONG2-LONG1)];
+Distance = distSPHERE * 6378137  //(distSphere*radius of equator in meters);
+//---------------------------------------------------------------
+
+
+waitms(60);//Time to place boat in water
+
+while(Distance>1)
+{
+	//port4 servo2-------------------------------
+	                                             //NXTServoSetPos(NXTSERVO,subport,position,speed)
+	                                             //NXTServoSetPos(NXTSERVO,2,50,5);
+	NXTServoSetSpeed(NXTSERVO, 2, 2000);
+        //------------------------------------------- 
+	
+	//----------------------Distance--------------
+
+	LAT2=DGPSreadLatitude(DGPS);
+	LONG2=DGPSreadLongitude(DGPS);
+	distSPHERE = acos[sin(LAT1)*sin(LAT2)+cos(LAT1)*cos(LAT2)*cos(LONG2-LONG1)];
+	Distance = distSPHERE * 6378137  //(distSphere*radius of equator in meters);
+        //dy = LAT2 - LAT1;
+        //dx = cos(pi/180*LAT1)*(LONG2-LONG1);
+        //gpshead = atan2(dy/dx);
+        //                 sin(lat2) - sin(lat1)*cos(d)
+        //  Bearing = acos ----------------------------
+        //                    sin(d) * cos(lat1)
+          gpshead=acos((sin(LAT2)-sin(LAT1)*cos(Distance))/(sin(Distance)*cos(LAT1)));
+ 
+        //-------------------------------------------
+	
+        //-------------------Angle Difference for New-------------------- 
+        //angle_diff=gpsheading- compassheading
+	      DIMCreadAxes(DIMC, x, y, z);
+              heading = DIMCreadHeading(DIMC);
+              angle_diff=gpshead-heading
+        //---------------------------------------------------------------
+
+	if(abs(angle_diff)<=180)       //if angle_diff is between -180,180
+				if(angle_diff<0)
+					new_angle=angle_diff+360;
+				else
+					new_angle=angle_diff-360;
+				end
+	else
+		  new_angle=angle_diff;
+	end
+	//port4 servo1--------------------------------------
+	rudangle=new_angle*2+1500;
+	                                              //NXTServoSetPos(NXTSERVO,subport,position,speed)
+	                                              //NXTServoSetPos(NXTSERVO,2,,5);
+	                                              //NXTServoSetSpeed(tSensors link, ubyte servochan, ubyte speed, ubyte address);
+          NXTServoSetPos(NXTSERVO, 1, rudangle, 50);
+	//--------------------------------------------------
+
+	//-------------------------------
+	if(Distance<10)
+	{
+		n=n+1;
+		waitMs(60);    //wait 60 seconds for sensors
+		LAT1= LAT[n,1];//Place the new variables
+		LONG1=LONG[n,1];//Place the new variables
+
+		//----------Space for sensors-----------------
+		
+		//--------------------------------------------
+	}
+}
+
+
+
+
+//--------------------IMPORTANT BACKUP PLAN IF MALFUNCTION----------------------------
+
+//If boat drifts within 1 meter of the target location and ends the first loop
+
+
+LAT1= ;//HOME BASE DO NOT TOUCH
+LONG1= ;//HOME BASE DO NOT TOUCH
+while(Distance>1)
+{
+	//port4 servo2
+	  NXTServoSetSpeed(NXTSERVO, 2, 2000);	
+	//----------------------Distance-----------------------------------------------
+	LAT2=DGPSreadLatitude(DGPS);
+	LONG2=DGPSreadLongitude(DGPS);
+	distSPHERE = acos[sin(LAT1)*sin(LAT2)+cos(LAT1)*cos(LAT2)*cos(LONG2-LONG1)];
+	Distance = distSPHERE * 6378137  //(distSphere*radius of equator in meters);
+        //dy = LAT2 - LAT1;
+        //dx = cos(pi/180*LAT1)*(LONG2-LONG1);
+        //gpshead = atan2(dy/dx);
+        //                 sin(lat2) - sin(lat1)*cos(d)
+        //  Bearing = acos ----------------------------
+        //                    sin(d) * cos(lat1)
+          gpshead=acos((sin(LAT2)-sin(LAT1)*cos(Distance))/(sin(Distance)*cos(LAT1)));
+ 
+	//-----------------------------------------------------------------------------
+	
+        //-------------------Angle Difference for New---------------------------------- 
+        //angle_diff=gps heading- compass heading
+              DIMCreadAxes(DIMC, x, y, z);
+              heading = DIMCreadHeading(DIMC);
+              angle_diff=gpshead-heading;
+        //-----------------------------------------------------------------------------
+
+	if(abs(angle_diff)<=180)       //if angle_diff is between -180,180
+				if(angle_diff<0)
+					new_angle=angle_diff+360;
+				else
+					new_angle=angle_diff-360;
+				end
+	else
+		  new_angle=angle_diff;
+	end
+	rudangle=new_angle*2+1500;
+	NXTServoSetPos(NXTSERVO, 1, rudangle, 50);
+}
+}      //task main
