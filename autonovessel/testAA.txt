@@ -1,0 +1,1201 @@
+Adafruit GPS library basic test!
+28.1373, -81.6200
+Heading Angle: 85.90
+28.1372, -81.6231
+New Heading 272.43
+degree: 173
+direction(l/r): 0.00
+Distance(mi): 0.19
+turn state: left
+
+turn state: center
+
+trigger: d=0
+
+28.1373, -81.6200
+Heading Angle: 235.71
+28.1372, -81.6231
+New Heading 272.43
+degree: 37
+direction(l/r): 1.00
+Distance(mi): 0.19
+turn state: right
+
+turn state: center
+
+trigger: d=1
+
+
+28.1373, -81.6200
+Heading Angle: 80.17
+28.1372, -81.6231
+New Heading 272.36
+degree: 168
+direction(l/r): 0.00
+Distance(mi): 0.19
+turn state: left
+
+turn state: center
+
+trigger: d=0
+
+
+28.1373, -81.6200
+Heading Angle: 340.55
+28.1372, -81.6231
+New Heading 272.43
+degree: 68
+direction(l/r): 0.00
+Distance(mi): 0.19
+turn state: left
+
+turn state: center
+
+trigger: d=0
+
+
+28.1373, -81.6200
+Heading Angle: 339.03
+28.1372, -81.6231
+New Heading 272.50
+degree: 67
+direction(l/r): 0.00
+Distance(mi): 0.19
+turn state: left
+
+turn state: center
+
+trigger: d=0
+
+
+28.1373, -81.6200
+Heading Angle: 346.54
+28.1372, -81.6231
+New Heading 272.65
+degree: 74
+direction(l/r): 0.00
+Distance(mi): 0.19
+turn state: left
+
+turn state: center
+
+trigger: d=0
+
+
+28.1373, -81.6200
+Heading Angle: 1.00
+28.1372, -81.6231
+New Heading 272.76
+degree: 89
+direction(l/r): 0.00
+Distance(mi): 0.19
+turn state: left
+
+turn state: center
+
+trigger: d=0
+
+
+28.1374, -81.6200
+Heading Angle: 0.09
+28.1372, -81.6231
+New Heading 272.91
+degree: 88
+direction(l/r): 0.00
+Distance(mi): 0.19
+turn state: left
+
+turn state: center
+
+trigger: d=0
+
+
+28.1374, -81.6200
+Heading Angle: 312.13
+28.1372, -81.6231
+New Heading 272.92
+degree: 40
+direction(l/r): 0.00
+Distance(mi): 0.19
+turn state: left
+
+turn state: center
+
+trigger: d=0
+
+
+28.1374, -81.6200
+Heading Angle: 277.15
+28.1372, -81.6231
+New Heading 272.93
+degree: 5
+direction(l/r): 0.00
+Distance(mi): 0.19
+
+
+28.1374, -81.6201
+Heading Angle: 264.64
+28.1372, -81.6231
+New Heading 272.96
+degree: 8
+direction(l/r): 1.00
+Distance(mi): 0.18
+
+
+28.1374, -81.6201
+Heading Angle: 277.14
+28.1372, -81.6231
+New Heading 273.05
+degree: 4
+direction(l/r): 0.00
+Distance(mi): 0.18
+
+
+28.1374, -81.6201
+Heading Angle: 279.36
+28.1372, -81.6231
+New Heading 273.14
+degree: 6
+direction(l/r): 0.00
+Distance(mi): 0.18
+
+
+28.1374, -81.6201
+Heading Angle: 283.04
+28.1372, -81.6231
+New Heading 273.08
+degree: 10
+direction(l/r): 0.00
+Distance(mi): 0.18
+
+
+28.1374, -81.6201
+Heading Angle: 299.49
+28.1372, -81.6231
+New Heading 273.23
+degree: 26
+direction(l/r): 0.00
+Distance(mi): 0.18
+
+
+28.1374, -81.6201
+Heading Angle: 278.07
+28.1372, -81.6231
+New Heading 273.23
+degree: 5
+direction(l/r): 0.00
+Distance(mi): 0.18
+
+
+28.1374, -81.6201
+Heading Angle: 259.85
+28.1372, -81.6231
+New Heading 273.17
+degree: 14
+direction(l/r): 1.00
+Distance(mi): 0.18
+
+
+28.1374, -81.6202
+Heading Angle: 263.23
+28.1372, -81.6231
+New Heading 273.18
+degree: 10
+direction(l/r): 1.00
+Distance(mi): 0.18
+
+
+28.1374, -81.6202
+Heading Angle: 267.57
+28.1372, -81.6231
+New Heading 273.20
+degree: 6
+direction(l/r): 1.00
+Distance(mi): 0.18
+
+
+28.1374, -81.6202
+Heading Angle: 270.35
+28.1372, -81.6231
+New Heading 273.38
+degree: 3
+direction(l/r): 1.00
+Distance(mi): 0.18
+
+
+28.1374, -81.6202
+Heading Angle: 274.80
+28.1372, -81.6231
+New Heading 273.74
+degree: 1
+direction(l/r): 0.00
+Distance(mi): 0.18
+
+
+28.1374, -81.6202
+Heading Angle: 278.84
+28.1372, -81.6231
+New Heading 273.91
+degree: 5
+direction(l/r): 0.00
+Distance(mi): 0.18
+
+
+28.1374, -81.6202
+Heading Angle: 279.42
+28.1372, -81.6231
+New Heading 274.00
+degree: 5
+direction(l/r): 0.00
+Distance(mi): 0.18
+
+
+28.1374, -81.6203
+Heading Angle: 270.45
+28.1372, -81.6231
+New Heading 274.10
+degree: 4
+direction(l/r): 1.00
+Distance(mi): 0.17
+
+
+28.1374, -81.6203
+Heading Angle: 268.14
+28.1372, -81.6231
+New Heading 274.05
+degree: 6
+direction(l/r): 1.00
+Distance(mi): 0.17
+
+
+28.1374, -81.6203
+Heading Angle: 267.55
+28.1372, -81.6231
+New Heading 273.99
+degree: 6
+direction(l/r): 1.00
+Distance(mi): 0.17
+
+
+28.1374, -81.6203
+Heading Angle: 261.14
+28.1372, -81.6231
+New Heading 273.93
+degree: 12
+direction(l/r): 1.00
+Distance(mi): 0.17
+
+
+28.1374, -81.6203
+Heading Angle: 260.20
+28.1372, -81.6231
+New Heading 273.89
+degree: 13
+direction(l/r): 1.00
+Distance(mi): 0.17
+
+
+28.1374, -81.6203
+Heading Angle: 268.96
+28.1372, -81.6231
+New Heading 273.91
+degree: 5
+direction(l/r): 1.00
+Distance(mi): 0.17
+
+
+28.1374, -81.6203
+Heading Angle: 267.17
+28.1372, -81.6231
+New Heading 273.93
+degree: 6
+direction(l/r): 1.00
+Distance(mi): 0.17
+
+
+28.1374, -81.6204
+Heading Angle: 277.36
+28.1372, -81.6231
+New Heading 274.03
+degree: 3
+direction(l/r): 0.00
+Distance(mi): 0.17
+
+
+28.1374, -81.6204
+Heading Angle: 302.17
+28.1372, -81.6231
+New Heading 274.04
+degree: 28
+direction(l/r): 0.00
+Distance(mi): 0.17
+
+
+28.1374, -81.6204
+Heading Angle: 327.83
+28.1372, -81.6231
+New Heading 274.13
+degree: 53
+direction(l/r): 0.00
+Distance(mi): 0.17
+turn state: left
+
+turn state: center
+
+trigger: d=0
+
+
+28.1374, -81.6204
+Heading Angle: 337.63
+28.1372, -81.6231
+New Heading 274.22
+degree: 63
+direction(l/r): 0.00
+Distance(mi): 0.17
+turn state: left
+
+turn state: center
+
+trigger: d=0
+
+
+28.1374, -81.6204
+Heading Angle: 299.21
+28.1372, -81.6231
+New Heading 274.32
+degree: 25
+direction(l/r): 0.00
+Distance(mi): 0.17
+
+
+28.1374, -81.6204
+Heading Angle: 280.41
+28.1372, -81.6231
+New Heading 274.47
+degree: 6
+direction(l/r): 0.00
+Distance(mi): 0.16
+
+
+28.1374, -81.6204
+Heading Angle: 264.63
+28.1372, -81.6231
+New Heading 274.56
+degree: 10
+direction(l/r): 1.00
+Distance(mi): 0.16
+
+
+28.1374, -81.6204
+Heading Angle: 266.57
+28.1372, -81.6231
+New Heading 274.60
+degree: 8
+direction(l/r): 1.00
+Distance(mi): 0.16
+
+
+28.1374, -81.6205
+Heading Angle: 266.48
+28.1372, -81.6231
+New Heading 274.71
+degree: 8
+direction(l/r): 1.00
+Distance(mi): 0.16
+
+
+28.1374, -81.6205
+Heading Angle: 271.25
+28.1372, -81.6231
+New Heading 274.82
+degree: 3
+direction(l/r): 1.00
+Distance(mi): 0.16
+
+
+28.1374, -81.6205
+Heading Angle: 272.18
+28.1372, -81.6231
+New Heading 274.86
+degree: 2
+direction(l/r): 1.00
+Distance(mi): 0.16
+
+
+28.1374, -81.6205
+Heading Angle: 267.18
+28.1372, -81.6231
+New Heading 274.89
+degree: 7
+direction(l/r): 1.00
+Distance(mi): 0.16
+
+
+28.1374, -81.6205
+Heading Angle: 274.62
+28.1372, -81.6231
+New Heading 275.02
+degree: 1
+direction(l/r): 1.00
+Distance(mi): 0.16
+
+
+28.1374, -81.6206
+Heading Angle: 254.47
+28.1372, -81.6231
+New Heading 274.90
+degree: 20
+direction(l/r): 1.00
+Distance(mi): 0.16
+
+
+28.1374, -81.6206
+Heading Angle: 252.78
+28.1372, -81.6231
+New Heading 274.63
+degree: 22
+direction(l/r): 1.00
+Distance(mi): 0.15
+
+
+28.1374, -81.6206
+Heading Angle: 243.24
+28.1372, -81.6231
+New Heading 274.40
+degree: 31
+direction(l/r): 1.00
+Distance(mi): 0.15
+turn state: right
+
+turn state: center
+
+trigger: d=1
+
+
+28.1374, -81.6206
+Heading Angle: 242.05
+28.1372, -81.6231
+New Heading 274.26
+degree: 32
+direction(l/r): 1.00
+Distance(mi): 0.15
+turn state: right
+
+turn state: center
+
+trigger: d=1
+
+
+28.1374, -81.6206
+Heading Angle: 241.85
+28.1372, -81.6231
+New Heading 273.98
+degree: 32
+direction(l/r): 1.00
+Distance(mi): 0.15
+turn state: right
+
+turn state: center
+
+trigger: d=1
+
+
+28.1374, -81.6206
+Heading Angle: 249.29
+28.1372, -81.6231
+New Heading 273.73
+degree: 24
+direction(l/r): 1.00
+Distance(mi): 0.15
+
+
+28.1374, -81.6207
+Heading Angle: 259.27
+28.1372, -81.6231
+New Heading 273.69
+degree: 14
+direction(l/r): 1.00
+Distance(mi): 0.15
+
+
+28.1374, -81.6207
+Heading Angle: 262.44
+28.1372, -81.6231
+New Heading 273.71
+degree: 11
+direction(l/r): 1.00
+Distance(mi): 0.15
+
+
+28.1374, -81.6207
+Heading Angle: 267.94
+28.1372, -81.6231
+New Heading 273.75
+degree: 6
+direction(l/r): 1.00
+Distance(mi): 0.15
+
+
+28.1373, -81.6207
+Heading Angle: 265.86
+28.1372, -81.6231
+New Heading 273.58
+degree: 8
+direction(l/r): 1.00
+Distance(mi): 0.14
+
+
+28.1373, -81.6208
+Heading Angle: 271.02
+28.1372, -81.6231
+New Heading 273.62
+degree: 2
+direction(l/r): 1.00
+Distance(mi): 0.14
+
+
+28.1373, -81.6208
+Heading Angle: 274.22
+28.1372, -81.6231
+New Heading 273.64
+degree: 1
+direction(l/r): 0.00
+Distance(mi): 0.14
+
+
+28.1373, -81.6208
+Heading Angle: 278.12
+28.1372, -81.6231
+New Heading 273.67
+degree: 5
+direction(l/r): 0.00
+Distance(mi): 0.14
+
+
+28.1374, -81.6208
+Heading Angle: 293.82
+28.1372, -81.6231
+New Heading 273.89
+degree: 20
+direction(l/r): 0.00
+Distance(mi): 0.14
+
+
+28.1374, -81.6208
+Heading Angle: 300.06
+28.1372, -81.6231
+New Heading 274.13
+degree: 26
+direction(l/r): 0.00
+Distance(mi): 0.14
+
+
+28.1374, -81.6208
+Heading Angle: 304.97
+28.1372, -81.6231
+New Heading 274.59
+degree: 30
+direction(l/r): 0.00
+Distance(mi): 0.14
+
+
+28.1374, -81.6209
+Heading Angle: 304.09
+28.1372, -81.6231
+New Heading 274.92
+degree: 30
+direction(l/r): 0.00
+Distance(mi): 0.14
+
+
+28.1374, -81.6209
+Heading Angle: 285.66
+28.1372, -81.6231
+New Heading 275.06
+degree: 10
+direction(l/r): 0.00
+Distance(mi): 0.14
+
+
+28.1374, -81.6209
+Heading Angle: 269.16
+28.1372, -81.6231
+New Heading 275.10
+degree: 6
+direction(l/r): 1.00
+Distance(mi): 0.14
+
+
+28.1374, -81.6209
+Heading Angle: 264.77
+28.1372, -81.6231
+New Heading 275.05
+degree: 11
+direction(l/r): 1.00
+Distance(mi): 0.13
+
+
+28.1374, -81.6209
+Heading Angle: 264.29
+28.1372, -81.6231
+New Heading 275.10
+degree: 11
+direction(l/r): 1.00
+Distance(mi): 0.13
+
+
+28.1374, -81.6210
+Heading Angle: 266.40
+28.1372, -81.6231
+New Heading 275.26
+degree: 9
+direction(l/r): 1.00
+Distance(mi): 0.13
+
+
+28.1374, -81.6210
+Heading Angle: 266.82
+28.1372, -81.6231
+New Heading 275.32
+degree: 9
+direction(l/r): 1.00
+Distance(mi): 0.13
+
+
+28.1374, -81.6210
+Heading Angle: 266.21
+28.1372, -81.6231
+New Heading 275.38
+degree: 9
+direction(l/r): 1.00
+Distance(mi): 0.13
+
+
+28.1374, -81.6210
+Heading Angle: 267.11
+28.1372, -81.6231
+New Heading 275.35
+degree: 8
+direction(l/r): 1.00
+Distance(mi): 0.13
+
+
+28.1374, -81.6211
+Heading Angle: 270.48
+28.1372, -81.6231
+New Heading 275.41
+degree: 5
+direction(l/r): 1.00
+Distance(mi): 0.12
+
+
+28.1374, -81.6211
+Heading Angle: 269.24
+28.1372, -81.6231
+New Heading 275.49
+degree: 6
+direction(l/r): 1.00
+Distance(mi): 0.12
+
+
+28.1374, -81.6211
+Heading Angle: 263.55
+28.1372, -81.6231
+New Heading 275.31
+degree: 12
+direction(l/r): 1.00
+Distance(mi): 0.12
+
+
+28.1374, -81.6211
+Heading Angle: 269.41
+28.1372, -81.6231
+New Heading 275.46
+degree: 6
+direction(l/r): 1.00
+Distance(mi): 0.12
+
+
+28.1374, -81.6212
+Heading Angle: 273.38
+28.1372, -81.6231
+New Heading 275.57
+degree: 2
+direction(l/r): 1.00
+Distance(mi): 0.12
+
+
+28.1374, -81.6212
+Heading Angle: 273.66
+28.1372, -81.6231
+New Heading 275.75
+degree: 2
+direction(l/r): 1.00
+Distance(mi): 0.12
+
+
+28.1374, -81.6212
+Heading Angle: 270.20
+28.1372, -81.6231
+New Heading 275.79
+degree: 5
+direction(l/r): 1.00
+Distance(mi): 0.12
+
+
+28.1374, -81.6212
+Heading Angle: 267.00
+28.1372, -81.6231
+New Heading 275.98
+degree: 8
+direction(l/r): 1.00
+Distance(mi): 0.12
+
+
+28.1374, -81.6212
+Heading Angle: 265.97
+28.1372, -81.6231
+New Heading 276.03
+degree: 11
+direction(l/r): 1.00
+Distance(mi): 0.11
+
+
+28.1374, -81.6213
+Heading Angle: 270.86
+28.1372, -81.6231
+New Heading 276.22
+degree: 6
+direction(l/r): 1.00
+Distance(mi): 0.11
+
+
+28.1374, -81.6213
+Heading Angle: 271.54
+28.1372, -81.6231
+New Heading 276.30
+degree: 5
+direction(l/r): 1.00
+Distance(mi): 0.11
+
+
+28.1374, -81.6213
+Heading Angle: 269.56
+28.1372, -81.6231
+New Heading 276.23
+degree: 7
+direction(l/r): 1.00
+Distance(mi): 0.11
+
+
+28.1374, -81.6213
+Heading Angle: 273.02
+28.1372, -81.6231
+New Heading 276.19
+degree: 3
+direction(l/r): 1.00
+Distance(mi): 0.11
+
+
+28.1374, -81.6213
+Heading Angle: 272.45
+28.1372, -81.6231
+New Heading 276.27
+degree: 4
+direction(l/r): 1.00
+Distance(mi): 0.11
+
+
+28.1374, -81.6214
+Heading Angle: 274.20
+28.1372, -81.6231
+New Heading 276.35
+degree: 2
+direction(l/r): 1.00
+Distance(mi): 0.11
+
+
+28.1374, -81.6214
+Heading Angle: 268.78
+28.1372, -81.6231
+New Heading 276.44
+degree: 8
+direction(l/r): 1.00
+Distance(mi): 0.10
+
+
+28.1374, -81.6214
+Heading Angle: 270.47
+28.1372, -81.6231
+New Heading 276.52
+degree: 6
+direction(l/r): 1.00
+Distance(mi): 0.10
+
+
+28.1374, -81.6214
+Heading Angle: 275.94
+28.1372, -81.6231
+New Heading 276.61
+degree: 1
+direction(l/r): 1.00
+Distance(mi): 0.10
+
+
+28.1374, -81.6215
+Heading Angle: 276.11
+28.1372, -81.6231
+New Heading 276.97
+degree: 1
+direction(l/r): -0.00
+Distance(mi): 0.10
+
+
+28.1374, -81.6215
+Heading Angle: 274.54
+28.1372, -81.6231
+New Heading 277.20
+degree: 3
+direction(l/r): 1.00
+Distance(mi): 0.10
+
+
+28.1374, -81.6215
+Heading Angle: 260.91
+28.1372, -81.6200
+New Heading 83.97
+degree: 177
+direction(l/r): 0.00
+Distance(mi): 0.09
+turn state: left
+
+turn state: center
+
+trigger: d=0
+
+
+28.1374, -81.6215
+Heading Angle: 279.16
+28.1501, -81.8507
+New Heading 267.67
+degree: 12
+direction(l/r): 0.00
+Distance(mi): 13.99
+
+
+28.1374, -81.6216
+Heading Angle: 255.75
+28.1501, -81.8507
+New Heading 267.67
+degree: 12
+direction(l/r): 1.00
+Distance(mi): 13.99
+
+
+28.1374, -81.6216
+Heading Angle: 252.01
+28.1501, -81.8507
+New Heading 267.66
+degree: 15
+direction(l/r): 1.00
+Distance(mi): 13.99
+
+
+28.1374, -81.6216
+Heading Angle: 252.24
+28.1501, -81.8507
+New Heading 267.66
+degree: 15
+direction(l/r): 1.00
+Distance(mi): 13.99
+
+
+28.1374, -81.6216
+Heading Angle: 264.88
+28.1501, -81.8507
+New Heading 267.66
+degree: 3
+direction(l/r): 1.00
+Distance(mi): 13.99
+
+
+28.1374, -81.6216
+Heading Angle: 269.04
+28.1501, -81.8507
+New Heading 267.66
+degree: 2
+direction(l/r): 0.00
+Distance(mi): 13.99
+
+
+28.1374, -81.6216
+Heading Angle: 268.70
+28.1501, -81.8507
+New Heading 267.66
+degree: 1
+direction(l/r): 0.00
+Distance(mi): 13.99
+
+
+28.1374, -81.6216
+Heading Angle: 268.15
+28.1501, -81.8507
+New Heading 267.66
+degree: 1
+direction(l/r): 0.00
+Distance(mi): 13.99
+
+
+28.1374, -81.6217
+Heading Angle: 271.22
+28.1501, -81.8507
+New Heading 267.66
+degree: 4
+direction(l/r): 0.00
+Distance(mi): 13.98
+
+
+28.1374, -81.6217
+Heading Angle: 267.24
+28.1501, -81.8507
+New Heading 267.66
+degree: 4
+direction(l/r): 0.01
+Distance(mi): 13.98
+
+
+28.1374, -81.6217
+Heading Angle: 171.70
+28.1501, -81.8507
+New Heading 267.66
+degree: 96
+direction(l/r): 1.00
+Distance(mi): 13.98
+turn state: right
+
+turn state: center
+
+trigger: d=1
+
+
+28.1374, -81.6217
+Heading Angle: 124.95
+28.1501, -81.8507
+New Heading 267.66
+degree: 143
+direction(l/r): 1.00
+Distance(mi): 13.98
+turn state: right
+
+turn state: center
+
+trigger: d=1
+
+
+28.1374, -81.6216
+Heading Angle: 114.18
+28.1501, -81.8507
+New Heading 267.65
+degree: 153
+direction(l/r): 1.00
+Distance(mi): 13.99
+turn state: right
+
+turn state: center
+
+trigger: d=1
+
+
+28.1373, -81.6216
+Heading Angle: 105.94
+28.1501, -81.8507
+New Heading 267.65
+degree: 162
+direction(l/r): 1.00
+Distance(mi): 13.99
+turn state: right
+
+turn state: center
+
+trigger: d=1
+
+
+28.1373, -81.6216
+Heading Angle: 104.90
+28.1501, -81.8507
+New Heading 267.65
+degree: 163
+direction(l/r): 1.00
+Distance(mi): 13.99
+turn state: right
+
+turn state: center
+
+trigger: d=1
+
+
+28.1373, -81.6216
+Heading Angle: 100.40
+28.1501, -81.8507
+New Heading 267.65
+degree: 167
+direction(l/r): 1.00
+Distance(mi): 13.99
+turn state: right
+
+turn state: center
+
+trigger: d=1
+
+
+28.1373, -81.6216
+Heading Angle: 93.53
+28.1501, -81.8507
+New Heading 267.65
+degree: 174
+direction(l/r): 1.00
+Distance(mi): 13.99
+turn state: right
+
+turn state: center
+
+trigger: d=1
+
+
+28.1373, -81.6216
+Heading Angle: 92.67
+28.1501, -81.8507
+New Heading 267.65
+degree: 175
+direction(l/r): 1.00
+Distance(mi): 13.99
+turn state: right
+
+turn state: center
+
+trigger: d=1
+
+
+28.1373, -81.6215
+Heading Angle: 89.70
+28.1501, -81.8507
+New Heading 267.65
+degree: 178
+direction(l/r): 1.00
+Distance(mi): 13.99
+turn state: right
+
+turn state: center
+
+trigger: d=1
+
+
+28.1373, -81.6215
+Heading Angle: 95.02
+28.1501, -81.8507
+New Heading 267.65
+degree: 172
+direction(l/r): 1.00
+Distance(mi): 13.99
+turn state: right
+
+turn state: center
+
+trigger: d=1
+
+
+28.1373, -81.6215
+Heading Angle: 94.55
+28.1501, -81.8507
+New Heading 267.65
+degree: 173
+direction(l/r): 1.00
+Distance(mi): 13.99
+turn state: right
+
+turn state: center
+
+trigger: d=1
+
+
+28.1373, -81.6215
+Heading Angle: 87.14
+28.1501, -81.8507
+New Heading 267.65
+degree: 173
+direction(l/r): 0.01
+Distance(mi): 14.00
+
+
+28.1373, -81.6214
+Heading Angle: 88.25
+28.1501, -81.8507
+New Heading 267.65
+degree: 179
+direction(l/r): 1.00
+Distance(mi): 14.00
+turn state: right
+
+turn state: center
+
+trigger: d=1
+
+
+28.1373, -81.6214
+Heading Angle: 87.50
+28.1501, -81.8507
+New Heading 267.65
+degree: 179
+direction(l/r): 0.01
+Distance(mi): 14.00
+
+
+28.1373, -81.6214
+Heading Angle: 86.18
+28.1501, -81.8507
+New Heading 267.65
+degree: 179
+direction(l/r): 0.00
+Distance(mi): 14.00
+turn state: left
+
+turn state: center
+
+trigger: d=0
+
+
+28.1373, -81.6214
+Heading Angle: 93.76
+28.1501, -81.8507
+New Heading 267.65
+degree: 174
+direction(l/r): 1.00
+Distance(mi): 14.00
+turn state: right
+
+turn state: center
+
+trigger: d=1
+
+
+28.1373, -81.6214
+Heading Angle: 94.19
+28.1501, -81.8507
+New Heading 267.65
+degree: 173
+direction(l/r): 1.00
+Distance(mi): 14.00
+turn state: right
+
+turn state: center
+
+trigger: d=1
+
+
+28.1373, -81.6213
+Heading Angle: 98.11
+28.1501, -81.8507
+New Heading 267.65
+degree: 169
+direction(l/r): 1.00
+Distance(mi): 14.00
